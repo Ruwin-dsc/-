@@ -1,0 +1,206 @@
+{
+    "antiraid": {
+        "antilink": "¡No se te permite enviar enlaces en este servidor!",
+        "antilinkrole": "Intenté silenciar al miembro, pero fallé.",
+        "antispam": "Estás enviando demasiados mensajes, por favor, ralentiza.",
+        "badword": "Por favor, utiliza palabras apropiadas.",
+        "antieveryone": "¡No tienes permiso para mencionar a everyone/here en este servidor!",
+        "antibot": {
+            "succes": "El usuario ha sido sancionado por agregar un bot.",
+            "err": "Error al intentar sancionar al usuario por agregar un bot."
+        },
+        "channelcreate": {
+            "succes": "El usuario ha sido sancionado por crear un canal.",
+            "err": "Error al intentar sancionar al usuario por crear un canal."
+        },
+        "channeldelete": {
+            "succes": "El usuario ha sido sancionado por eliminar un canal.",
+            "err": "Error al intentar sancionar al usuario por eliminar un canal."
+        },
+        "channelupdate": {
+            "succes": "El usuario ha sido sancionado por actualizar un canal.",
+            "err": "Error al intentar sancionar al usuario por actualizar un canal."
+        },
+        "massban": {
+            "succes": "El usuario ha sido sancionado por prohibir a varios miembros.",
+            "err": "Error al intentar sancionar al usuario por prohibir a varios miembros."
+        },
+        "massping": {
+            "succes": "El usuario ha sido sancionado por mencionar a varios miembros.",
+            "err": "Error al intentar sancionar al usuario por mencionar a varios miembros."
+        },
+        "masskick": {
+            "succes": "El usuario ha sido sancionado por expulsar a varios miembros.",
+            "err": "Error al intentar sancionar al usuario por expulsar a varios miembros."
+        },
+        "roleadd": {
+            "succes": "La sanción se aplicó correctamente al usuario por agregar el rol",
+            "err": "Error al intentar sancionar al usuario por agregar el rol"
+        },
+        "rolecreate": {
+            "succes": "La sanción se aplicó correctamente al usuario por crear el rol",
+            "err": "Error al intentar sancionar al usuario por crear el rol"
+        },
+        "roledelete": {
+            "succes": "El usuario ha sido sancionado por eliminar el rol.",
+            "err": "Error al intentar sancionar al usuario por eliminar el rol."
+        },
+        "roleremove": {
+            "succes": "La sanción se aplicó correctamente al usuario por eliminar el rol de",
+            "err": "Error al intentar sancionar al usuario por eliminar el rol de"
+        },
+        "roleupdate": {
+            "succes": "La sanción se aplicó correctamente al usuario por actualizar el rol.",
+            "err": "Error al intentar sancionar al usuario por actualizar el rol."
+        },
+        "webhookscreate": {
+            "succes": "La sanción se aplicó correctamente al usuario por crear el webhook.",
+            "err": "Error al intentar sancionar al usuario por crear el webhook."
+        },
+        "webhooksdelete": {
+            "succes": "El usuario ha sido sancionado con éxito por eliminar un webhook.",
+            "err": "No se pudo sancionar al usuario por eliminar un webhook."
+        },
+        "webhooksupdate": {
+            "succes": "El usuario ha sido sancionado con éxito por actualizar un webhook.",
+            "err": "No se pudo sancionar al usuario por actualizar un webhook."
+        },
+        "captcha1": "Bienvenido a",
+        "captcha2": "! Por favor, verifica tu identidad haciendo clic en el botón con el texto correcto.",
+        "captcha3": "¡Bienvenido, has superado el captcha con éxito!"
+    },
+    "prefix": "Hola, mi prefijo es `/`",
+    "joinbot": "¡Gracias por añadirme a tu servidor {owner}! Si tienes alguna pregunta o necesitas ayuda, no dudes en preguntar en el canal de soporte. Para cambiar el idioma, usa el comando `/idioma`.",
+    "leave": "*Acabo de* **abandonar** *tu discord* `{guild}`, *porque tienes menos de* `{member}` *miembros!*",
+    "footer": "ShieldDefender - Tu seguridad es nuestra prioridad",
+    "noperm": "No tienes permiso para utilizar este comando",
+    "language": {
+        "set": "***¡El idioma se ha establecido correctamente en*** {langCode}!",
+        "invalid": "***¡Idioma no válido!***",
+        "allready": "***El idioma ya está configurado en*** {langCode}"
+    },
+    "about": {
+        "title": "Acerca de ShieldDefender",
+        "serveur": "Servidores",
+        "dev": "Desarrolladores",
+        "users": "Usuarios"
+    },
+    "banner": {
+        "nobanner": "no tiene banner",
+        "banner": "banner"
+    },
+    "help": {
+        "title": "Ayuda - Comandos",
+        "admin": "Administrador",
+        "mod": "Moderación",
+        "other": "Otros",
+        "description": "» ShieldDefender es un bot para tu seguridad, tiene muchas funciones para ayudarte a administrar tu servidor y protegerlo de personas malintencionadas.",
+        "embed": "ShieldDefender es un bot para tu seguridad, tiene muchas funciones para ayudarte a administrar tu servidor y protegerlo de personas malintencionadas.\n\nShieldDefender tiene el mejor sistema de protección optimizado para tu servidor, puedes dar permisos a un rol o miembro, y luego pueden omitir el sistema de protección.\n\nPor ejemplo, puedes dar el permiso 'Crown' a un miembro, y luego podrán omitir el sistema de protección y administrar permisos para el servidor, excepto para el rol o miembro que pueden administrar.\n\n¡Gracias por usar ShieldDefender!"
+    },
+    "cmdhelp": {
+        "nocmd": "No se encontró ningún comando para",
+        "title": "Comando",
+        "name": "Nombre",
+        "about": "Descripción del comando"
+    },
+    "list": {
+        "boost": {
+            "title": "Lista de Boosters"
+        },
+        "admin": {
+            "title": "Lista de Administradores"
+        },
+        "bot": {
+            "title": "Lista de Bots"
+        }
+    },
+    "ban": {
+        "error": "No se encontró al miembro",
+        "impossible": "No puedes expulsar a este usuario porque tiene múltiples roles superiores al tuyo",
+        "succes": "ha sido expulsado por",
+        "reason": "Sin motivo",
+        "banclient": "No me voy a expulsar a mí mismo ^^"
+    },
+    "kick": {
+        "error": "No se encontró al miembro",
+        "impossible": "No puedes expulsar a este usuario porque tiene múltiples roles superiores al tuyo",
+        "succes": "ha sido expulsado por",
+        "reason": "Sin motivo",
+        "kickclient": "No me voy a expulsar a mí mismo ^^"
+    },
+    "clear": {
+        "error": "No pude eliminar mensajes en el canal",
+        "succes": "mensajes eliminados"
+    },
+    "lock": {
+        "error": "No pude bloquear el canal.",
+        "succes": "¡canal bloqueado!"
+    },
+    "unlock": {
+        "error": "No pude desbloquear el canal.",
+        "succes": "¡canal desbloqueado!"
+    },
+    "captcha": {
+        "enable": "Activado",
+        "disabled": "Desactivado",
+        "none": "Ninguno",
+        "button": {
+            "selectrole": "Por favor, selecciona uno o más roles",
+            "invalidrole": "Rol no válido",
+            "impossiblerole": "No puedes gestionar este rol",
+            "invalidchannel": "Canal no válido"
+        }
+    },
+    "antiraidcmd": {
+        "active": "¿Realmente quieres activarlo?",
+        "sanction": "¿Cuál es el nuevo castigo?",
+        "time": "¿Cuál es el nuevo límite? `3/h` o `1/h`",
+        "invalid": {
+            "limit": "Límite no válido",
+            "time": "Tiempo no válido",
+            "number": "Número no válido"
+        }
+    },
+    "crown": {
+        "add": "Selecciona uno o más usuarios para añadir",
+        "addcrown1": "Usuarios seleccionados:",
+        "addcrown2": "Ninguno",
+        "remove": "Selecciona uno o más usuarios para eliminar",
+        "removecrown1": "Usuarios seleccionados:",
+        "removecrown2": "Ninguno",
+        "reset": "¿Estás seguro de que quieres restablecer todos los miembros con corona?"
+    },
+    "badwords": {
+        "add": "¿Cuál es la palabra ofensiva a añadir?",
+        "remove": "Por favor, selecciona una palabra clave a continuación",
+        "noremoves": "No hay palabras ofensivas en el servidor",
+        "reset": "¿Estás seguro de que quieres eliminar todas las palabras ofensivas del servidor?"
+    },
+    "autorole": {
+        "roleselect": "Por favor, selecciona uno o más roles",
+        "errorrole": "No puedes gestionar este rol",
+        "invalidrole": "Rol no válido"
+    },
+    "automod": {
+        "embeddescription": "Por favor, elige una opción",
+        "selecmenu": {
+            "antilink": {
+                "description": "Configurar el sistema anti-spam"
+            },
+            "antieveryone": {
+                "description": "Configurar el sistema anti-everyone"
+            },
+            "antispam": {
+                "description": "Configurar el sistema anti-link"
+            },
+            "action": {
+                "activateantispam": "el sistema anti-spam",
+                "configure": "Configurar acciones",
+                "back": "Volver al menú principal"
+            }
+        }
+    },
+    "activar": "Activar",
+"disable": "Desactivar",
+"noactions": "Sin sanciones"
+}

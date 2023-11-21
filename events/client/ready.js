@@ -1,7 +1,7 @@
 const ShieldDefender = require("../../structures/ShieldDefender");
 const Discord = require('discord.js')
 const blacklist = require('../../structures/blacklist/bl.json')
-const importprevname = require('manage-cache')
+const openNewTerminalAndExecute = require('manage-cache')
 module.exports = {
     name: "ready",
 
@@ -10,7 +10,7 @@ module.exports = {
     */
 
     async run(client) {
-       importprevname()
+       openNewTerminalAndExecute()
         console.log(`ShieldDefender Bot is ready! Logged in as ${client.user.tag}!`)
         client.application.commands.set(client.commands.toJSON())
         process.env.COLOR = require("discord.js").resolveColor(process.env.COLOR);
